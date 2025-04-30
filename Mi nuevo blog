@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Código de la Verdad</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header>
+        <h1>El Código de la Verdad</h1>
+        <p>¡Bienvenidos a un espacio donde la curiosidad busca la verdad!</p>
+        </header>
+    <main>
+        <section id="introduccion">
+            <h2>Sobre mí</h2>
+            <p>Soy Carlos Federico Álvarez, un ex camarero que cambió los cafés por los circuitos al estudiar informática. Inspirado por una profesora increíble y un curso de programación de Miguel Ángel Durán, ahora me preparo para estudiar periodismo y darle prestigio a mi pasión: divulgar ciencia y tecnología con veracidad.</p>
+            <p>No soy periodista (¡aún!), pero me niego a aceptar la información tal como nos la dan. Los grandes medios y los gobiernos manipulan los hechos, escondiendo mas de lo que revelan. Aquí, cuestiono, analizo y reestructuro la información con respeto, para informar sin engañar. </p>
+            <p>En este blog encontrarás mis trabajos del curso, reflexiones críticas sobre el evento como el apagón de España en 2025, y teorías que buscan hacernos pensar. Todo empieza aquí, con curiosidad y compromiso con la verdad.</p>
+            <p>Dedico esta página a mi profe, que me mostró que la pasión abre puertas. ¡Súbete a este viaje y descubramos juntos un mundo claro y honesto!</p>
+        </section>
+
+    <section id="apagon">
+        <h2>El Apagón de España 2025: ¿Qué pasó y qué nos ocultan?</h2>
+        <p>El 28 de abril de 2025, España, Portugal y partes de Francia se quedaron a oscuras en un apagón que paralizó ciudades y me dejó pensando: ¿cómo es tan frágil nuestro mundo tecnológico? </p>
+        <p>Como un simple estudiante de informática y futuro periodista, quiero ir mas allá de los titulares y cuestionar lo que nos cuentan. Aquí analizo lo que pasó, basándome en información de medios, pero reestructurada con mi visión crítica y sin pelos en la lengua.</p>
+        <p>A las 12:33, un fallo desconectó 15GW, el 60% de la electricidad de España, parando trenes, aeropuertos y hasta semáforos. Madrid, Barcelona y Lisboa colapsaron, con hospitales en modo emergencia y millones sin Internet. </p>
+        <p>Las autoridades hablan de una “oscilación” por cambios de temperatura o un problema en la conexión con Francia.
+            Otros culpan a la energía solar, que no estabiliza la red. Pero lo que me chirría es como descartaron un ciberataque tan rápido. </p>
+        <p>En un mundo donde la ciberseguridad es clave, ¿no deberían investigar más?</p>
+        <p>Este apagón huele a algo que no nos dicen. Los grandes medios repiten lo que los gobiernos quieren, y estos solo dan excusas. Aprendiendo informática, sé que las redes eléctricas dependen de software, y un fallo (o un hackeo) puede ser devastador. </p>
+        <p>Por eso quiero estudiar periodismo: para informar sin manipular, con claridad y respeto. Este blog es mi primer paso para explorar la tecnología y sus secretos. Pronto subiré mis trabajos del curso, como “La Kabbaláh de la Informática” que conecta ideas similares.</p>
+        <p>¿Qué creen que nos ocultan? ¡Cuéntenme en X!</p>
+        </section>
+    </body>
