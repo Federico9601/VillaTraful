@@ -21,15 +21,15 @@ section {
     background: #ffffff;
     margin: 20px 0;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(0, 0, 1,);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1,);
 }
 footer {
-    text-align: center;
+    text-align: relative;
     padding: 10 0;
     background: #35424a;
     color: #ffffff;
-    position: relative;
+    position: center;
     width: 100;
     bottom: 0;
 }
@@ -37,7 +37,7 @@ footer {
 }
 
 .fuentes {
-    font-size: <em>0.9</em>;
+    font-size: 0.9;
     color: #ccc;
 }
 
@@ -47,7 +47,7 @@ footer {
     padding: 10;
     background-color: #007BFF;
     color: white;
-    width: 100;
+    width: 100%;
 }
 #opinion {
     max-width: 600px;
