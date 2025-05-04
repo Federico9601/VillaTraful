@@ -1,3 +1,4 @@
+Página estática HTML:
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,7 +7,7 @@
   <meta name="description" content="Cabaña sostenible en Villa Traful, diseñada por Carlos Álvarez con HTML y CSS.">
   <meta name="keywords" content="Villa Traful, cabaña sostenible, biodigestores, desarrollo web">
   <title>Cabaña en Villa Traful</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -19,7 +20,7 @@
   </header>
   <section id="inicio">
     <h2>Disfruta de la Naturaleza</h2>
-    <img src="{{ url_for('static', filename='cabaña.jpg') }}" alt="Cabaña en Villa Traful">
+    <img src="cabaña.jpg" alt="Cabaña en Villa Traful">
     <p>Una cabaña sostenible con biodigestores en Villa Traful, Patagonia.</p>
   </section>
   <section id="servicios">
@@ -37,18 +38,7 @@
   <section id="contacto">
     <h2>Contáctanos</h2>
     <p>Email: info@villatraful.com</p>
-    <form method="POST" action="/">
-      <label for="name">Nombre:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-      <label for="message">Mensaje:</label><br>
-      <textarea id="message" name="message" rows="4" required></textarea><br><br>
-      <button type="submit" class="cta-button">Enviar Mensaje</button>
-    </form>
-    {% if success %}
-      <p style="color: #355E3B; margin-top: 10px;">¡Mensaje enviado con éxito! Te contactaremos pronto.</p>
-    {% endif %}
+    <a href="mailto:info@villatraful.com" class="cta-button">Reserva Ahora</a>
   </section>
   <footer>
     <p>© 2025 Carlos Álvarez</p>
