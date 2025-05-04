@@ -17,6 +17,7 @@ nav {
 }
 section {
     padding: 20;
+    display: block;
     text-align: center;
 }
 footer {
