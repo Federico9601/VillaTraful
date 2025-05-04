@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cabaña sostenible en Villa Traful, diseñada por Carlos Álvarez con HTML y CSS.">
+  <meta name="keywords" content="Villa Traful, cabaña sostenible, biodigestores, desarrollo web">
+  <title>Cabaña en Villa Traful</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Villa Traful</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h2>Disfruta de la Naturaleza</h2>
+    <img src="{{ url_for('static', filename='cabaña.jpg') }}" alt="Cabaña en Villa Traful">
+    <p>Una cabaña sostenible con biodigestores en Villa Traful, Patagonia.</p>
+  </section>
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Alojamiento ecológico</li>
+      <li>Tours guiados</li>
+      <li>Energía renovable</li>
+    </ul>
+  </section>
+  <section id="sobre-mi">
+    <h2>Sobre el Proyecto</h2>
+    <p>Este sitio fue creado por Carlos Álvarez, un desarrollador web con conocimientos en HTML, CSS y Python, apasionado por soluciones sostenibles como biodigestores. ¿Necesitas una página web para tu negocio? <a href="https://github.com/federico9601" target="_blank">Ver más proyectos</a>.</p>
+  </section>
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Email: info@villatraful.com</p>
+    <form method="POST" action="/">
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      <button type="submit" class="cta-button">Enviar Mensaje</button>
+    </form>
+    {% if success %}
+      <p style="color: #355E3B; margin-top: 10px;">¡Mensaje enviado con éxito! Te contactaremos pronto.</p>
+    {% endif %}
+  </section>
+  <footer>
+    <p>© 2025 Carlos Álvarez</p>
+  </footer>
+</body>
+</html>

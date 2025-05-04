@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f4ea;
+}
+
+header {
+  background-color: #6b4e31;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #d4a373;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #355E3B;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+#inicio, #servicios, #contacto {
+  background-color: #e6f4ea;
+}
+
+#sobre-mi {
+  background-color: #F4E4BC; 
+  border-top: 2px solid #355E3B;
+  border-bottom: 2px solid #355E3B;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d4a373;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #b5895d;
+}
+
+a {
+  color: #6b4e31; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #355E3B;
+}
+
+footer {
+  background-color: #6b4e31; 
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
