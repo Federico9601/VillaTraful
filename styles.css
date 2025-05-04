@@ -10,7 +10,7 @@ header {
     text-align: center;
     padding: 10;
 }
-nav {
+a {
     color: white;
     margin: 0 15;
     text-decoration: none !important;
