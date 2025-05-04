@@ -1,14 +1,16 @@
+/* Importa la fuente Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6f4ea;
+  background-color: #e6f4ea; /* Verde claro (mantenido) */
+  color: #333; /* Gris oscuro (mantenido) */
 }
 
 header {
-  background-color: #6b4e31;
+  background-color: #6b4e31; /* Marrón cálido (mantenido) */
   color: white;
   text-align: center;
   padding: 15px;
@@ -22,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #d4a373;
+  color: #d4a373; /* Dorado (mantenido) */
 }
 
 section {
@@ -31,7 +33,7 @@ section {
 }
 
 h2 {
-  color: #355E3B;
+  color: #355E3B; /* Verde pino para títulos */
 }
 
 img {
@@ -54,19 +56,19 @@ li {
 }
 
 #inicio, #servicios, #contacto {
-  background-color: #e6f4ea;
+  background-color: #e6f4ea; /* Mantenido */
 }
 
 #sobre-mi {
-  background-color: #F4E4BC; 
-  border-top: 2px solid #355E3B;
-  border-bottom: 2px solid #355E3B;
+  background-color: #F4E4BC; /* Beige arenoso */
+  border-top: 2px solid #355E3B; /* Verde pino para borde superior */
+  border-bottom: 2px solid #355E3B; /* Verde pino para borde inferior */
 }
 
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #d4a373;
+  background-color: #d4a373; /* Dorado (mantenido) */
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -75,20 +77,20 @@ li {
 }
 
 .cta-button:hover {
-  background-color: #b5895d;
+  background-color: #b5895d; /* Dorado oscuro (mantenido) */
 }
 
 a {
-  color: #6b4e31; 
+  color: #6b4e31; /* Marrón cálido (mantenido) */
   text-decoration: none;
 }
 
 a:hover {
-  color: #355E3B;
+  color: #355E3B; /* Verde pino al pasar el ratón */
 }
 
 footer {
-  background-color: #6b4e31; 
+  background-color: #6b4e31; /* Marrón cálido (mantenido) */
   color: white;
   text-align: center;
   padding: 10px;
