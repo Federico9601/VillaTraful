@@ -32,3 +32,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+ul {list-style-type: none;
+    paddin: 0;
+}
+li {
+    margin-bottom: 10px;
+}
